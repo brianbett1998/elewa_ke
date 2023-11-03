@@ -1,4 +1,7 @@
+body{
+  width: auto;
 
+}
 .logo{
   position: relative;
   left:10px;
@@ -35,9 +38,10 @@ a {
   text-align: left;
   color: white;
   background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg");
-  height:fit-content;
+  height:100vh;
   max-width: max-content;
   background-size: cover;
+
 }
 
 .home-h2 {
@@ -45,6 +49,7 @@ a {
   background: transparent; 
   font-family: DMSans-Regular;
   left:20px;
+  top:100px;
 }
 
 .home-h1 {
@@ -52,4 +57,43 @@ a {
   background: transparent; 
   font-family: Jeko-Medium;
   left:20px;
+  top:100px;
 }
+.home-black{
+  background-color: black;
+  color:white;
+  background-size: contain;
+}
+.numbers-container{
+  position: relative;
+  display:flex;
+  
+}
+.numbers-container h1{
+  position: relative;
+  display:block;
+}
+
+.numbers-container p{
+  position: relative;
+  display: block;
+}
+
+.image-text{
+  position: relative;
+  display: block;
+  top:-600px;
+  left: 600px;
+  text-align:left;
+  justify-content: center;
+}
+.image-p{
+  position: relative;
+  display: block;
+  top:-550px;
+  left:600px;
+  text-align:left;
+  font-size:12px;
+
+}
+
