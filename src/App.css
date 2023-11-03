@@ -103,6 +103,7 @@ a {
   display: block;
   align-items: left; 
   background-color: #ECECEC;
+  height:100%;
 }
 
 .cooperative-image {
@@ -133,5 +134,115 @@ a {
   flex: 1;
   padding: 20px; 
 }
+/* Business styling */
+.business-h1{
+  position: relative;
+  top:-500px;
+  left:460px;
+  font-size:40px;
+}
+.business-p{
+position: relative;
+display: block;
+top:-450px;
+left:460px;
+text-align:left;
+width:65%;
+font-size: 20px;
+}
+.business-image{
+  position: relative;
+  width: 50%;
+  left:20px;
+
+}
+/* Knowledge styling */
+.knowledge{
+  background-color: black;
+  height:100%;
+}
+.knowledge-h1{
+  position: relative;
+  top:-700px;
+  left:10px;
+  font-size: 40px;
+  color:white;
+}
+.knowledge-p{
+  position: relative;
+  display: block;
+  top:-660px;
+  left:10px;
+  text-align: left;
+  width:50%;
+  font-size: 20px;
+  color:white;
+}
+.knowledge-image{
+  position: relative;
+  width:30%;
+  left:700px;
+
+}
+
+/* Partners styling */
+h1{
+  text-align: center;
+}
+
+.partners-all {
+  outline: 3px solid yellow;
+  text-align: center;
+  padding: 20px 0;
+  left:20px;
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  background: white;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  height: 100px;
+  width: fit-content;
+  align-items: center;
+}
+
+.partners{
+  width: 100px;
+  padding:20px;
+  height: 100px;
+}
+@keyframes rotation{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Footer Styling */
+/* Footer.css */
+
+.footer {
+  background-color:black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  height:100vh;
+
+}
+
+h3{
+  position: relative;
+  display:block;
+  text-align: center;
+}
+p {
+  position: relative;
+  margin: 0;
+  font-size: 14px;
+  display:block;
+}
+
+
 
 
