@@ -6,6 +6,7 @@ import Care from './components/Care';
 import TeamManagement from './components/TeamManagement';
 import Culture from './components/Culture';
 import Directions from './components/Directions';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TeamManagement/>
       <Culture/>
       <Directions/>
+      <Footer/>
     
     </div>
   );
