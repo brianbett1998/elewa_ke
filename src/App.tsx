@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import Care from './components/Care';
+import TeamManagement from './components/TeamManagement';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <HomePage/> 
       <Care/>
+      <TeamManagement/>
     
     </div>
   );
