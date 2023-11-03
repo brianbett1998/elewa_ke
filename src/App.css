@@ -156,3 +156,79 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+/* Culture styling */
+.Culture {
+  text-align: left;
+  padding: 20px;
+}
+
+.Culture h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; 
+}
+
+.Culture p {
+  font-size: 16px;
+  color: #666;
+}
+
+.Cooperative {
+  position: relative;
+  display: block;
+  width: 50%;
+
+}
+.Ownership {
+  position: relative;
+  display: flex;
+  width: 50%;
+  left:50%;
+  top:-200px;
+}
+.Detail {
+  position: relative;
+  display: block;
+}
+.Empathy {
+  position: relative;
+  display: flex;
+  left:50%;
+  top:-150px;
+}
+.Transparency {
+  position: relative;
+  display: block;
+}
+p{
+  width:50%;
+}
+
+/* Directions.css */
+.direction-all {
+  display: flex;
+  align-items: left;
+}
+
+.Directions img {
+  position: relative;
+  max-width: 300px;
+  height:10px; 
+  margin-right: 20px;
+}
+
+.direction-text {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+  left:100px;
+  top: 0px;
+
+}
+
+.Directions p {
+  font-size: 16px;
+  color: black;
+}
