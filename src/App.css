@@ -1,0 +1,98 @@
+/* NavBar styling */
+
+.navbar {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+}
+
+/* HomePage styling */
+.homepage-container {
+  position: relative;
+  padding: 20px;
+  color:#fff;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg");
+  height:100vh;
+  width: auto;
+}
+
+.homepage-content {
+  position: relative;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  top:50%;
+  left:50%;
+
+}
+
+.homepage-content h2 {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:white;
+  text-align: left;
+  display: block;
+  top:-100px;
+
+}
+
+.homepage-content p {
+  font-size: 16px;
+  color:white;
+  top:-80px;
+}
+
+/* Care styling */
+.main-h1 {
+  text-align: left;
+  display: flex;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.p1 {
+  text-align: left;
+  display: flex;
+  margin: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.complete{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
