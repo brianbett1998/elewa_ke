@@ -96,4 +96,42 @@ a {
   font-size:12px;
 
 }
+/* Cooperative  page styling */
+
+.cooperative {
+  position: relative;
+  display: block;
+  align-items: left; 
+  background-color: #ECECEC;
+}
+
+.cooperative-image {
+  position: relative;
+  flex: 1; 
+  align-items: right;
+  left:50%;
+  justify-content: left;
+}
+
+.cooperative-h1{
+  position: relative;
+  top:-600px;
+  left:10px;
+}
+.cooperative-p{
+  position: relative;
+  display: block;
+  top:-580px;
+  left:10px;
+  font-size: 18px;
+  text-align:left;
+  width:50%;
+
+}
+
+.cooperative-content {
+  flex: 1;
+  padding: 20px; 
+}
+
 
