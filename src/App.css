@@ -1,0 +1,259 @@
+/* NavBar styling */
+
+.navbar {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+}
+
+/* HomePage styling */
+.homepage-container {
+  position: relative;
+  padding: 20px;
+  color:#fff;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg");
+  height:100vh;
+  width: auto;
+}
+
+.homepage-content {
+  position: relative;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  top:50%;
+  left:50%;
+
+}
+
+.homepage-content h2 {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:white;
+  text-align: left;
+  display: block;
+  top:-100px;
+
+}
+
+.homepage-content p {
+  font-size: 16px;
+  color:white;
+  top:-80px;
+}
+
+/* Care styling */
+.main-h1 {
+  text-align: left;
+  display: flex;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.p1 {
+  text-align: left;
+  display: flex;
+  margin: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.complete{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* TeamManagement.css */
+.team-management-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.team-member {
+  width: 513px; /* Adjust the card width as needed */
+  padding: 10px;
+  box-shadow: 0px 0px 5px 0px #888888;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-box {
+  width: 100%;
+  text-align: center;
+}
+
+.card-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-description {
+  text-align: center;
+}
+
+.team-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Culture styling */
+.Culture {
+  text-align: left;
+  padding: 20px;
+}
+
+.Culture h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; 
+}
+
+.Culture p {
+  font-size: 16px;
+  color: #666;
+}
+
+.Cooperative {
+  position: relative;
+  display: block;
+  width: 50%;
+
+}
+.Ownership {
+  position: relative;
+  display: flex;
+  width: 50%;
+  left:50%;
+  top:-200px;
+}
+.Detail {
+  position: relative;
+  display: block;
+}
+.Empathy {
+  position: relative;
+  display: flex;
+  left:50%;
+  top:-150px;
+}
+.Transparency {
+  position: relative;
+  display: block;
+}
+p{
+  width:50%;
+}
+
+/* Directions.css */
+.direction-all {
+  display: flex;
+  align-items: left;
+}
+
+.Directions img {
+  position: relative;
+  max-width: 300px;
+  height:10px; 
+  margin-right: 20px;
+}
+
+.direction-text {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+  left:100px;
+  top: 0px;
+
+}
+
+.Directions p {
+  font-size: 16px;
+  color: black;
+}
+/* Footer.css */
+.footer-main {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Footer div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.Footer h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Footer p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
